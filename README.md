@@ -40,8 +40,8 @@ Possible values are: `necessary`, `ads` and `analytics`.
 Here's an example of what it should look like:
 
 ```
-<script **type="text/plain" data-cookiecategory="analytics"** src="https://www.googletagmanager.com/gtag/js?id=UA-123456789-1"></script>
-<script **type="text/plain" data-cookiecategory="analytics"**>
+<script type="text/plain" data-cookiecategory="analytics" src="https://www.googletagmanager.com/gtag/js?id=UA-123456789-1"></script>
+<script type="text/plain" data-cookiecategory="analytics">
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
