@@ -32,9 +32,9 @@ Don't forget to edit the `path-to-your-js-folder` portion with the correct path 
 
 6. Now we tell the library which script tags it should manage and what category they fit into.
 
-a. Edit the attribute `type="text/javascript"` portion to read `type="text/plain"` on every script that collects data, so it doesn't load right away.
+  * Edit the attribute `type="text/javascript"` portion to read `type="text/plain"` on every script that collects data, so it doesn't load right away.
 
-b. Add another attribute to specify its category: `data-cookiecategory="ads"`
+  * Add another attribute to specify its category: `data-cookiecategory="ads"`
 Possible values are: `necessary`, `ads` and `analytics`.
 
 Here's an example of what it should look like:
