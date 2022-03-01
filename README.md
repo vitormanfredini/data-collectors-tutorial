@@ -8,7 +8,7 @@ This tutorial uses [a lightweight & gdpr compliant cookie consent plugin written
 
 Here's how you do it:
 
-1. Download these 2 files: `consent-config.js` and `consent.css`.
+1. Download these 2 files: [consent.js](https://raw.githubusercontent.com/vitormanfredini/data-collectors-tutorial/main/consent.js) and [consent.css](https://raw.githubusercontent.com/vitormanfredini/data-collectors-tutorial/main/consent.css).
 
 2. Upload `consent.css` to your server.
 
